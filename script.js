@@ -29,8 +29,7 @@ for (let i = 0; i < 90; i++) {
 }
 
 function animate() {
-  ctx.fillStyle = "rgba(0,0,0,0.25)";
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   particles.forEach(p => {
     p.x += p.speedX;
