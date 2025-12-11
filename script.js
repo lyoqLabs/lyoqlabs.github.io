@@ -1,5 +1,3 @@
-/* SIDEBAR TOGGLE */
-
 const toggleBtn = document.getElementById("toggle-btn");
 const sidebar = document.getElementById("sidebar");
 
@@ -40,8 +38,8 @@ function animate() {
     if (p.y < 0 || p.y > canvas.height) p.speedY *= -1;
 
     ctx.shadowBlur = 10;
-    ctx.shadowColor = "#00eaff";
-    ctx.fillStyle = "#00eaff";
+    ctx.shadowColor = "#ffffff"; 
+    ctx.fillStyle = "#ffffff";
 
     ctx.beginPath();
     ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
