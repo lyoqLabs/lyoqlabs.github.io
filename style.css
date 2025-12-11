@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -11,23 +13,38 @@ body {
   overflow: hidden;
 }
 
+/* SIDEBAR */
+
 .sidebar {
   position: fixed;
   top: 0;
   left: 0;
-  width: 220px;
+  width: 240px;
   height: 100vh;
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.03);
   border-right: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  transition: 0.4s;
   padding: 40px 20px;
 }
 
-.logo {
-  font-size: 26px;
-  margin-bottom: 40px;
-  letter-spacing: 2px;
+.sidebar.collapsed {
+  width: 70px;
 }
+
+.logo {
+  font-size: 22px;
+  margin-bottom: 40px;
+  color: #00eaff;
+  text-shadow: 0 0 15px #00eaff;
+  transition: 0.4s;
+}
+
+.sidebar.collapsed .logo {
+  opacity: 0;
+}
+
+/* NAV */
 
 .sidebar nav a {
   display: block;
@@ -36,18 +53,56 @@ body {
   margin: 20px 0;
   opacity: 0.7;
   transition: 0.3s;
+  font-size: 18px;
 }
 
 .sidebar nav a:hover {
   opacity: 1;
-  transform: translateX(5px);
+  color: #00eaff;
+  text-shadow: 0 0 10px #00eaff;
 }
 
+.sidebar.collapsed nav a {
+  font-size: 0;
+  opacity: 0;
+}
+
+/* TOGGLE BUTTON */
+
+#toggle-btn {
+  position: fixed;
+  top: 20px;
+  left: 260px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #00eaff;
+  font-size: 24px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  backdrop-filter: blur(10px);
+}
+
+.sidebar.collapsed + #toggle-btn {
+  left: 90px;
+}
+
+#toggle-btn:hover {
+  text-shadow: 0 0 10px #00eaff;
+}
+
+/* CONTENT */
+
 .content {
-  margin-left: 220px;
+  margin-left: 240px;
   position: relative;
   height: 100vh;
-  overflow: hidden;
+  transition: 0.4s;
+}
+
+.sidebar.collapsed ~ .content {
+  margin-left: 70px;
 }
 
 #bg-canvas {
@@ -61,16 +116,17 @@ body {
 .hero {
   position: relative;
   z-index: 2;
-  padding: 60px;
-  margin-top: 120px;
+  padding: 80px;
+  margin-top: 130px;
 }
 
 .hero h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
+  font-size: 58px;
+  text-shadow: 0 0 15px #00eaff;
 }
 
 .hero p {
-  opacity: 0.7;
-  font-size: 18px;
+  font-size: 20px;
+  opacity: 0.8;
+  margin-top: 10px;
 }
