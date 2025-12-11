@@ -13,7 +13,6 @@ body {
   overflow: hidden;
 }
 
-/* SIDEBAR */
 
 .sidebar {
   position: fixed;
@@ -32,11 +31,13 @@ body {
   width: 70px;
 }
 
+/* LOGO */
+
 .logo {
   font-size: 22px;
   margin-bottom: 40px;
-  color: #00eaff;
-  text-shadow: 0 0 15px #00eaff;
+  color: #ffffff;
+  text-shadow: 0 0 15px #ffffff;
   transition: 0.4s;
 }
 
@@ -44,7 +45,7 @@ body {
   opacity: 0;
 }
 
-/* NAV */
+/* NAVIGATION */
 
 .sidebar nav a {
   display: block;
@@ -58,8 +59,8 @@ body {
 
 .sidebar nav a:hover {
   opacity: 1;
-  color: #00eaff;
-  text-shadow: 0 0 10px #00eaff;
+  color: #fff;
+  text-shadow: 0 0 10px #fff;
 }
 
 .sidebar.collapsed nav a {
@@ -67,7 +68,38 @@ body {
   opacity: 0;
 }
 
-/* TOGGLE BUTTON */
+/* SOCIAL ICONS */
+
+.sidebar .socials {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+}
+
+.sidebar .socials a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.7;
+  margin: 10px 0;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.sidebar .socials a:hover {
+  opacity: 1;
+  text-shadow: 0 0 10px #fff;
+}
+
+.sidebar.collapsed .socials a span {
+  display: none;
+}
+
+.sidebar.collapsed .socials a svg {
+  margin-left: 5px;
+}
 
 #toggle-btn {
   position: fixed;
@@ -75,7 +107,7 @@ body {
   left: 260px;
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.2);
-  color: #00eaff;
+  color: #fff;
   font-size: 24px;
   padding: 8px 14px;
   border-radius: 8px;
@@ -89,10 +121,8 @@ body {
 }
 
 #toggle-btn:hover {
-  text-shadow: 0 0 10px #00eaff;
+  text-shadow: 0 0 10px #fff;
 }
-
-/* CONTENT */
 
 .content {
   margin-left: 240px;
@@ -113,6 +143,8 @@ body {
   height: 100%;
 }
 
+/* HERO SECTION */
+
 .hero {
   position: relative;
   z-index: 2;
@@ -122,11 +154,33 @@ body {
 
 .hero h1 {
   font-size: 58px;
-  text-shadow: 0 0 15px #00eaff;
+  text-shadow: 0 0 15px #ffffff;
 }
 
 .hero p {
   font-size: 20px;
   opacity: 0.8;
   margin-top: 10px;
+}
+
+/* ABOUT SECTION */
+
+.about {
+  position: relative;
+  z-index: 2;
+  padding: 80px;
+  margin-top: 40px;
+  max-width: 900px;
+}
+
+.about h2 {
+  font-size: 32px;
+  text-shadow: 0 0 10px #ffffff;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  opacity: 0.8;
+  line-height: 1.5;
 }
