@@ -35,7 +35,7 @@
 </div>
 
 <button id="toggle-btn">☰</button>
-  
+
 <div class="content">
   <canvas id="bg-canvas"></canvas>
 
@@ -152,6 +152,27 @@
   </script>
 
   <style>
+
+.sidebar.collapsed {
+  width: 70px;
+}
+    
+.sidebar.collapsed ~ .content {
+  margin-left: 70px;
+}
+
+.sidebar.collapsed .nav-links a {
+  font-size: 0; 
+  padding-left: 12px;
+}
+
+.sidebar.collapsed .nav-links a::before {
+  font-size: 22px;
+}
+
+.sidebar.collapsed .logo-container img {
+  width: 50px;
+}
     .content { margin-left: 240px; padding-top: 80px; min-height: 80vh; }
     .contact-card {
       width: 520px;
