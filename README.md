@@ -47,15 +47,15 @@ If you enjoy this project, consider giving it a star on GitHub.
 
 ---
 ## 👥 Credits
-Credits to the Owner and founder **lyoq**
-lyoq is creating this website on his own
-if you want to join our team add lyoq on Discord.
+Credits to the owner and founder **lyoq**  
+lyoq is creating this website on his own  
+If you want to join our team, add lyoq on Discord.
 
 **Discord: @.lyoq** 
 > [!IMPORTANT]
 > `.lyoq` with the **dot**.
->  If you add the person without a dot, it won't be the right person.
-> Also lyoqs Discord ID is `1435071462087327785` A user cant have 2 ID´s. So make sure dont get scammed!
+> If you add the person without a dot, it won’t be the right person.
+> Also, lyoq’s Discord ID is `1435071462087327785`. A user can’t have two IDs, so make sure you don’t get scammed!
 ---
 
 ██╗░░░░░██╗░░░██╗░█████╗░░██████╗░  ██╗░░░░░░█████╗░██████╗░░██████╗
