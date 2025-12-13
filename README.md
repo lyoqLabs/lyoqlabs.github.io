@@ -9,19 +9,9 @@ All profiles are hosted via GitHub Pages:
 ## ⚡ What We Do
 We create:
 
-- personalized profile pages  
-- modern neon-styled UI  
-- clean black & white layouts  
-- optional social links  
-- small creative tools & UI experiments  
-- downloads such as Roblox scripts & executors (not created by us), Minecraft texture packs, and more  
-
----
-
-## 🧪 Extra Features
-We also build:
-
-More coming soon.
+- social links profile for users 
+- downloads such as Minecraft texture packs, and more 
+- downloads such as Roblox scripts & executors (not created by us) Read our [README On Our Roblox Page](https://github.com/lyoqLabs/roblox/blob/main/README.md). 
 
 ---
 
@@ -33,7 +23,7 @@ If a profile doesn't exist, the system will respond with:
 - **Available**  
 - **Not Found**  
 - **Banned**  
-- **For Sale**  
+- **For Sale**
 
 ---
 
