@@ -55,7 +55,7 @@ if you want to join our team add lyoq on Discord.
 > [!IMPORTANT]
 > `.lyoq` with the **dot**.
 >  If you add the person without a dot, it won't be the right person.
-
+> Also lyoqs Discord ID is `1435071462087327785` A user cant have 2 ID´s. So make sure dont get scammed!
 ---
 
 ██╗░░░░░██╗░░░██╗░█████╗░░██████╗░  ██╗░░░░░░█████╗░██████╗░░██████╗
