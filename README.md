@@ -45,6 +45,11 @@ Reuploading or redistributing content without permission is not allowed.
 ## ⭐ Support
 If you enjoy this project, consider giving it a star on GitHub.
 
+---
+## Credits
+Credits to the Owner and founder **lyoq**
+lyoq is creating this website on his own
+if you want to join our team add lyoq on Discord.
 
 
 ██╗░░░░░██╗░░░██╗░█████╗░░██████╗░  ██╗░░░░░░█████╗░██████╗░░██████╗
