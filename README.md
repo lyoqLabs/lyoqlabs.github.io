@@ -53,7 +53,7 @@ if you want to join our team add lyoq on Discord.
 
 **Discord: @.lyoq** 
 > [!IMPORTANT]
-> `.lyoq` with the **dot**
+> `.lyoq` with the **dot**.
 >  If you add the person without a dot, it won't be the right person.
 
 ---
