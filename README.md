@@ -51,6 +51,12 @@ Credits to the Owner and founder **lyoq**
 lyoq is creating this website on his own
 if you want to join our team add lyoq on Discord.
 
+**Discord: @.lyoq** 
+> [!IMPORTANT]
+> `.lyoq` with the **dot**
+>  If you add the person without a dot, it won't be the right person.
+
+---
 
 ██╗░░░░░██╗░░░██╗░█████╗░░██████╗░  ██╗░░░░░░█████╗░██████╗░░██████╗
 ██║░░░░░╚██╗░██╔╝██╔══██╗██╔═══██╗  ██║░░░░░██╔══██╗██╔══██╗██╔════╝
