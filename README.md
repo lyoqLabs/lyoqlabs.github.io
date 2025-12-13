@@ -11,9 +11,9 @@ We create:
 
 - social links profile for users 
 - downloads such as Minecraft texture packs, and more 
-- downloads such as Roblox scripts & executors (not created by us). Read our 
+- downloads such as Roblox scripts & executors (not created by us).
 > [!CAUTION]
-> [README on our Roblox repository](https://github.com/lyoqLabs/roblox/blob/main/README.md) for more informations. 
+>  Read our [README on our Roblox repository](https://github.com/lyoqLabs/roblox/blob/main/README.md) for more informations. 
 
 ---
 
