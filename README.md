@@ -1,6 +1,4 @@
 # 🌐 Lyoq Labs  
-Minimalistic • Neon • Modern
-
 Lyoq Labs is an unofficial creative project focused on modern, animated, black & white profile pages.  
 All profiles are hosted via GitHub Pages:
 
@@ -16,17 +14,12 @@ We create:
 - clean black & white layouts  
 - optional social links  
 - small creative tools & UI experiments  
-- downloads such as Roblox scripts (not created by us), Minecraft texture packs, and more  
+- downloads such as Roblox scripts & executors (not created by us), Minecraft texture packs, and more  
 
 ---
 
 ## 🧪 Extra Features
 We also build:
-
-- mini web tools  
-- design concepts  
-- neon effect experiments  
-- interactive sections for users  
 
 More coming soon.
 
@@ -50,16 +43,10 @@ Reuploading or redistributing content without permission is not allowed.
 
 ---
 
-## 🤝 Contributing
-Want to improve animations, UI, or features?  
-Open a pull request or contact us.
-
----
-
 ## 📬 Contact
 - Website: https://lyoqlabs.github.io  
 - Discord: Coming soon  
-- Contact page: soon
+- Contact page: https://lyoqlabs.github.io/contact
 
 ---
 
